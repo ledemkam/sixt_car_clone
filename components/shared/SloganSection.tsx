@@ -1,3 +1,7 @@
 export default function SloganSection() {
-  return <div>Slogan</div>;
+  return (
+    <div className="bg-[#FF5F00] text-[11px] p-1 flex items-center justify-center font-semibold">
+        <p>111 Jahre Expertise.</p>
+    </div>
+  )
 }
